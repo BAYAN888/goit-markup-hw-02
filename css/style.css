@@ -6,18 +6,57 @@ button {
   margin: 0 auto;
   display: block;
 }
-.link-studio .link {
-  width: 48;
-  height: 24;
-  color: #2e2f42;
-}
+
 h1 {
+  color: var(--WHITE, #fff);
   text-align: center;
-  color: white;
-  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
+
 .section-start {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link-adress {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.3em;
+  font-style: normal;
 }
