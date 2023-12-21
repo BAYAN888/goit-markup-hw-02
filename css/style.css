@@ -7,6 +7,12 @@ button {
   display: block;
 }
 
+.button:hover {
+  border-radius: 4px;
+  background: var(--OCEAN, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 h1 {
   color: var(--WHITE, #fff);
   text-align: center;
@@ -26,9 +32,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.logo {
+.logo-web {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-nav {
+  color: var(--NAVY-BLUE, #2e2f42);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
@@ -43,6 +58,8 @@ a {
 ul {
   list-style: none;
 }
+
+/*----------LINK--------*/
 
 .link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -59,4 +76,34 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.3em;
   font-style: normal;
+}
+
+.link:hover {
+  color: var(--OCEAN, #404bbf);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+}
+
+.link-adress:hover {
+  color: var(--OCEAN, #404bbf);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*--------------------------*/
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.logo-fter {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
