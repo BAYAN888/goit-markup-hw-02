@@ -23,19 +23,12 @@ h1 {
   letter-spacing: 0.02em;
 }
 
+h2,
 h3 {
-  color: var(--SLATE, #434455);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-h2 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.05em;
 }
 
@@ -55,6 +48,7 @@ p {
 
 body {
   font-family: "Roboto", sans-serif;
+  background: #fff;
 }
 
 .logo-web {
@@ -139,4 +133,11 @@ ul {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+
+/*---------img------*/
+
+.img-team,
+.img-portfolio {
+  background: var(--WHITE, #fff);
 }
