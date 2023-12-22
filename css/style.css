@@ -1,10 +1,16 @@
 button {
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: white;
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
 
@@ -22,8 +28,8 @@ h3 {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 12;
-  letter-spacing: 0.05em;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -97,7 +103,7 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 
@@ -130,7 +136,7 @@ ul {
 
 .logo-fter {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -140,7 +146,7 @@ ul {
 
 .logo-web-fter {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
