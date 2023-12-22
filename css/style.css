@@ -101,7 +101,8 @@ ul {
   font-style: normal;
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
   color: #404bbf;
   font-size: 16px;
   font-weight: 500;
@@ -109,12 +110,17 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.link-adress:hover {
+.link-adress:hover,
+.link-adress:focus {
   color: #404bbf;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.link-adress-first {
+  font-style: normal;
 }
 
 /*--------------------------*/
